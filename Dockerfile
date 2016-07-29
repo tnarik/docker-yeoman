@@ -1,4 +1,5 @@
 FROM node:6.3-slim
+MAINTAINER tnarik <tnarik@lecafeautomatique.co.uk>
 
 VOLUME /usr/src/app/
 
