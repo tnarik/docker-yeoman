@@ -1,7 +1,7 @@
 FROM node:6.3-slim
 MAINTAINER tnarik <tnarik@lecafeautomatique.co.uk>
 
-VOLUME /usr/src/app/
+VOLUME /code/
 
 EXPOSE 8080
 
@@ -14,4 +14,4 @@ RUN useradd -ms /bin/bash developer && \
 # Runtime user
 ENV PATH /home/developer/.npm-global/bin:${PATH}
 USER developer
-WORKDIR /home/developer
+WORKDIR /code
