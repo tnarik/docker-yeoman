@@ -2,6 +2,7 @@ FROM node:6.3-slim
 MAINTAINER tnarik <tnarik@lecafeautomatique.co.uk>
 
 VOLUME /code/
+VOLUME /workspace/
 
 EXPOSE 8080
 
